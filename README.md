@@ -38,14 +38,31 @@ npm test
 ```
 ## Release History
 
-* 01/04/2017 - 0.1.0 Inital Release
+* `0.1.0` Inital Release (01/04/2017)
 
-## Tasks
+## Supported Zymkey Features
 
-- [ ] Add support to node sign/verify (digest).
-- [ ] Support get ramdom bytes.
-- [ ] Add support to zymkey ECDSA (P256 Curve) key management.
+- [X] Manipulation (on/off/flash) of onboard LED.
+- [X] ECDSA (*P256 curve only*) operations (getECDSAPubKey/sign/verify)
+- [X] Data encrypt/decrypt using Zymkey private key.
+- [X] Generate random bytes using Zymkey's True Random Number Generator (TRNG).
+- [X] Access to Zymkey's Real Time Clock (RTC).
+- [X] Access to Zymkey's Tap Detection Sensor.
+- [X] Set Zymkey's I2C address.
+
+## Acknowledgement
+
+This project is based on [Zymbit](https://zymbit.com/zymkey/)'s trusted hardware modules.
+Thanks to Zymbit's amazing technical supports and great product!   
+And credits are given to the [node-ffi](https://github.com/node-ffi/node-ffi) and [ref](https://github.com/TooTallNate/ref) 
+that enable calling Zymkey's C library in nodejs.
 
 ## License
 
 GPL-3.0
+
+## Copyright
+
+Lex && [Oaken Team](https://github.com/Project-Oaken)
+
+

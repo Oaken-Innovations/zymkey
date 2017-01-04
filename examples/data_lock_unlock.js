@@ -1,8 +1,7 @@
-
-var client = require('./index.js')
-
-ret = client.ledOff();
-console.log('LEDOff returned ' + ret);
+/**
+ * Example of data lock/unlock or encrypt/decrypt functions.
+ */
+var client = require('../index.js')
 
 var srcBuf = new Buffer('hello, world');
 lockedBuf =  client.lock(srcBuf);

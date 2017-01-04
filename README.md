@@ -36,9 +36,6 @@ All the test are under `test/`. And run test script by
 ```bash
 npm test
 ```
-## Release History
-
-* `0.1.0` Inital Release (01/04/2017)
 
 ## Supported Zymkey Features
 
@@ -49,6 +46,10 @@ npm test
 - [X] Access to Zymkey's Real Time Clock (RTC).
 - [X] Access to Zymkey's Tap Detection Sensor.
 - [X] Set Zymkey's I2C address.
+
+## Release History
+
+* `0.1.0` Inital Release (01/04/2017)
 
 ## Acknowledgement
 

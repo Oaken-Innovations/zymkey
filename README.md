@@ -2,6 +2,9 @@
 
 A NodeJS wrapper for zymkey crypto library.
 
+**Caution:** This repo is deprecated and not catching up with the hardware development 
+of zymkey.
+
 ## Installation
 
 ```bash
